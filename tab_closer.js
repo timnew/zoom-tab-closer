@@ -20,4 +20,4 @@ function checkUrl() {
   }
 }
 
-const timerHandle = setTimeout(checkUrl, 1000)
+const timerHandle = setTimeout(checkUrl, 30000)
