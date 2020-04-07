@@ -1,0 +1,17 @@
+{
+  "name": "zoom-tab-closer",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Close Zoom tabs after it is succeeded",
+  "background": {
+    "scripts": ["coordinator.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.zoom.us/j/*"],
+      "js": ["tab_closer.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": ["tabs"]
+}
