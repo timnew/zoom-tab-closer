@@ -4,7 +4,7 @@ Chrome extension to close the tab opened by ZOOM after 30 sec if it is succeeded
 
 ## How to install
 
-**CAUTION:** Chrome v75 upgraded security restrictions that can only install extension from Chrome WebStore. So if you see error when install the extension, try install it from source
+**CAUTION:** Chrome v75 upgraded security restrictions that can only install extension from Chrome WebStore. So if you see `CRX_REQUIRED_PROOF_MISSING` or similar error when install the extension, try install it from source
 
 1. Download the Chrome extension from https://github.com/timnew/zoom-tab-closer/raw/release/zoom-tab-closer.crx
 2. Double click and install it
